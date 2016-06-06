@@ -30,7 +30,7 @@ module.exports.pitch = function(remainingRequest) {
 		"		}",
 		"		// When the module is disposed, remove the <style> tags",
 		"		module.hot.dispose(function() { update(); });",
-		"	}"
+		"	}",
 		"}",
 	].join("\n");
 };
